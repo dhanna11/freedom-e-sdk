@@ -52,12 +52,6 @@ git pull origin master
 git submodule update --init --recursive
 ```
 
-If you would like to recompile the entire toolchain after performing the above:
-
-```
-make uninstall
-make tools
-```
 ### Using the Tools ###
 
 To compile a bare-metal RISC-V program:
